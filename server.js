@@ -6,7 +6,7 @@ var request = require('request');
 
 //Initialize dependencies
 var app = express();
-var PORT = process.env.port || 3000;
+var PORT = process.env.PORT || 3000;
 
 //Use middleware morgan and body parser with app
 app.use(logger('dev'));
