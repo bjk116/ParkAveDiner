@@ -8,10 +8,10 @@ $(document).ready(function(){
 	$('tbody tr').hover(
 		//handler in
 		function(){
-			$(this).addClass('z-depth-4 blue darken-3');
+			$(this).addClass('z-depth-4 blue-grey darken-3');
 		},
 		//handler out
 		function(){
-			$(this).removeClass('z-depth-4 blue darken-3');
+			$(this).removeClass('z-depth-4 blue-grey darken-3');
 		});
 });
