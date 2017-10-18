@@ -15,3 +15,9 @@ li {
 #main-bg {
 	background-image: url('../images/concrete_wall.png');
 }
+
+.underlined {
+	border-width: 5px;
+	border-bottom: solid;
+	border-color: white;
+}
